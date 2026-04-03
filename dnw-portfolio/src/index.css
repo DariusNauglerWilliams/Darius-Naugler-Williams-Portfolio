@@ -59,17 +59,17 @@ body {
 .contact-section {
   min-height: 100vh;
   padding: 120px 20px 80px;
-  background: linear-gradient(140deg, #0b0b0b, #1d1d1d);
+  background: #0b0b0b;
   color: #f6f6f6;
 }
 
 .contact-shell {
-  max-width: 1100px;
+  max-width: 1200px;
   margin: auto;
 }
 
 .contact-header {
-  max-width: 800px;
+  max-width: 900px;
   margin-bottom: 50px;
 }
 
@@ -78,14 +78,11 @@ body {
   font-size: 48px;
 }
 
-.contact-header p {
-  font-size: 18px;
-  color: #b3b3b3;
-}
+
 
 .contact-grid {
   display: grid;
-  grid-template-columns: 1fr 1.2fr;
+  grid-template-columns: 1fr 1.3fr;
   gap: 24px;
 }
 
@@ -99,24 +96,19 @@ body {
   align-items: center;
   gap: 14px;
   padding: 16px;
-  color: inherit;
+  color: #f6f6f6;
   text-decoration: none;
   background: #1a1a1a;
   border: 1px solid #2a2a2a;
   border-radius: 16px;
-  transition: 0.2s;
+ 
 }
 
 .contact-card h3 {
-  font-size: 18px;
-  margin: 0;
+  font-size: 18px; 
 }
 
-.contact-card p {
-  font-size: 14px;
-  margin: 0;
-  color: #b0b0b0;
-}
+
 
 .contact-card:hover {
   transform: translateY(-2px);
@@ -132,7 +124,7 @@ body {
 .contact-form {
   display: grid;
   gap: 10px;
-  padding: 18px;
+  padding: 30px;
   background: #1a1a1a;
   border: 1px solid #2a2a2a;
   border-radius: 18px;
@@ -149,10 +141,6 @@ body {
   color: #ffffff;
 }
 
-.contact-form input::placeholder,
-.contact-form textarea::placeholder {
-  color: #888888;
-}
 
 .contact-form button {
   margin-top: 6px;
