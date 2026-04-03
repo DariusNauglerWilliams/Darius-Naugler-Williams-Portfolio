@@ -15,8 +15,9 @@ function App() {
     <CustomNavbar />
     <Cta/>
      <About />
-      <Projects />
+      
       <Resume />
+      <Projects />
       <Contact />
       
   </div>
