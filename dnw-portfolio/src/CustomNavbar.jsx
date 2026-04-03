@@ -25,17 +25,17 @@ function CustomNavbar() {
       <Navbar.Collapse>
  
 
-  <Nav className="ms-auto">
-    <Nav.Link style={{ color: "white" }}>djnaugler@gmail.com</Nav.Link>
-      <Nav.Link>
-    <img src="/email.png" alt="email" style={{ height: "18px" }} />
-  </Nav.Link>
-    <Nav.Link style={{ color: "white" }}>782-234-8930</Nav.Link>
-      <Nav.Link>
-    <img src="/phone.png" alt="phone" style={{ height: "18px" }} />
+  <Nav className="ms-auto d-flex align-items-center">
+  <Nav.Link style={{ color: "white" }}>
+    <img src="/email.png" alt="email" style={{ height: "46px" }} />
+    djnaugler@gmail.com
   </Nav.Link>
 
-  </Nav>
+  <Nav.Link style={{ color: "white" , marginRight: "20px"}}>
+    <img src="/phone.png" alt="phone" style={{ height: "46px"}} />
+    782-234-8930
+  </Nav.Link>
+</Nav>
 </Navbar.Collapse>
     </Navbar>
   );
