@@ -15,38 +15,6 @@ body {
 
 
 /* About me CSS */
-/* About section layout */
-.about-me-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-/* Profile image */
-.profile-pic {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-/* Text section */
-.about-me-text {
-  max-width: 500px;
-}
-
-.about-me-text h1 {
-  margin-bottom: 10px;
-}
-
-.about-me-text p {
-  margin-bottom: 10px;
-  line-height: 1.5;
-}
 
 
 
