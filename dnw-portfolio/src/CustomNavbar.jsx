@@ -7,19 +7,36 @@ function CustomNavbar() {
       <img
         src="/dnwlogo.png"
         alt="logo"
-        style={{ height: "50px", width: "auto", transform: "scale(3.4)", transformOrigin: "left center" }}
+        style={{ height: "53px", width: "auto", transform: "scale(3.5)", transformOrigin: "left center" }}
       />
     </Navbar.Brand>
 
       <Navbar.Toggle />
       <Navbar.Collapse>
-        <Nav className="ms-auto">
-          <Nav.Link href="#about" style={{ color: "white" }}>About Me</Nav.Link>
-          <Nav.Link href="#resume"style={{ color: "white" }}>Resume</Nav.Link>
-          <Nav.Link href="#projects"style={{ color: "white" }}>Projects</Nav.Link>
-           <Nav.Link href="#contact"style={{ color: "white" }}>Contact </Nav.Link>
+        <Nav className="mx-auto">
+          <Nav.Link href="#about" style={{ color: "white", fontSize: "18px", marginLeft: "30px" }}>About Me</Nav.Link>
+          <Nav.Link href="#resume"style={{ color: "white", fontSize: "18px", marginLeft: "30px" }}>Resume</Nav.Link>
+          <Nav.Link href="#projects"style={{ color: "white", fontSize: "18px", marginLeft: "30px" }}>Projects</Nav.Link>
+           <Nav.Link href="#contact"style={{ color: "white", fontSize: "18px", marginLeft: "30px" }}>Contact Me</Nav.Link>
         </Nav>
       </Navbar.Collapse>
+
+
+      <Navbar.Collapse>
+ 
+
+  <Nav className="ms-auto">
+    <Nav.Link style={{ color: "white" }}>djnaugler@gmail.com</Nav.Link>
+      <Nav.Link>
+    <img src="/email.png" alt="email" style={{ height: "18px" }} />
+  </Nav.Link>
+    <Nav.Link style={{ color: "white" }}>782-234-8930</Nav.Link>
+      <Nav.Link>
+    <img src="/phone.png" alt="phone" style={{ height: "18px" }} />
+  </Nav.Link>
+
+  </Nav>
+</Navbar.Collapse>
     </Navbar>
   );
 }
