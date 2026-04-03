@@ -2,7 +2,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 
 function CustomNavbar() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg" fixed="top">
       <Navbar.Brand href="#">Darius Naugler-Williams</Navbar.Brand>
 
       <Navbar.Toggle />
