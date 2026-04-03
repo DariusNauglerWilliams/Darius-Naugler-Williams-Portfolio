@@ -47,3 +47,136 @@ body {
   margin-bottom: 10px;
   line-height: 1.5;
 }
+
+
+
+
+
+
+
+
+/* Contact section */
+.contact-section {
+  min-height: 100vh;
+  padding: 120px 20px 80px;
+  background: linear-gradient(140deg, #0b0b0b, #1d1d1d);
+  color: #f6f6f6;
+}
+
+.contact-shell {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.contact-header {
+  max-width: 800px;
+  margin-bottom: 50px;
+}
+
+.contact-header h2 {
+  margin: 0 0 10px;
+  font-size: 48px;
+}
+
+.contact-header p {
+  font-size: 18px;
+  color: #b3b3b3;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 24px;
+}
+
+.contact-card-group {
+  display: grid;
+  gap: 14px;
+}
+
+.contact-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px;
+  color: inherit;
+  text-decoration: none;
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 16px;
+  transition: 0.2s;
+}
+
+.contact-card h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.contact-card p {
+  font-size: 14px;
+  margin: 0;
+  color: #b0b0b0;
+}
+
+.contact-card:hover {
+  transform: translateY(-2px);
+  border-color: #ffffff;
+}
+
+.contact-icon {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background: #333333;
+}
+
+.contact-form {
+  display: grid;
+  gap: 10px;
+  padding: 18px;
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 18px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #333333;
+  background: #222222;
+  color: #ffffff;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #888888;
+}
+
+.contact-form button {
+  margin-top: 6px;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  background: #f6f6f6;
+  color: #1f1f1f;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-section {
+    padding-top: 100px;
+  }
+}
