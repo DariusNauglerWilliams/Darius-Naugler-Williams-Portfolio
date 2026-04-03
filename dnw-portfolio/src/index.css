@@ -63,6 +63,14 @@ body {
   color: #f6f6f6;
 }
 
+
+  .contact-kicker {
+    text-transform: uppercase;
+    font-size: 35px;
+    color: white;
+   
+  }
+
 .contact-shell {
   max-width: 1200px;
   margin: auto;
