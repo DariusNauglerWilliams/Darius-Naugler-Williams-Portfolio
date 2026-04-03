@@ -3,6 +3,7 @@ import CustomNavbar from './CustomNavbar';
 import About from './About';
 import Projects from './Projects';
 import Resume from './Resume';
+import Contact from './contact';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 
@@ -14,6 +15,7 @@ function App() {
      <About />
       <Projects />
       <Resume />
+      <Contact />
       
   </div>
   );

@@ -3,4 +3,6 @@
 @tailwind utilities;
 
 
-/* Navbar container */
+html {
+  scroll-behavior: smooth;
+}
