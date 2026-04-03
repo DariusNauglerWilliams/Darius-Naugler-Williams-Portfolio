@@ -22,21 +22,21 @@ function Contact() {
           {/* Left side */}
           <div className="contact-card-group">
             
-            <a className="contact-card" href="mailto:djnaugler@gmail.com">
-              <span className="contact-icon" aria-hidden="true">@</span>
-              <div>
-                <h3>Email</h3>
-                <p>djnaugler@gmail.com</p>
-              </div>
-            </a>
+           <a className="contact-card" href="mailto:djnaugler@gmail.com">
+  <img src="/email.png" alt="email" className="contact-icon" />
+  <div>
+    <h3>Email</h3>
+    <p>djnaugler@gmail.com</p>
+  </div>
+</a>
 
-            <a className="contact-card" href="tel:+17822348930">
-              <span className="contact-icon" aria-hidden="true">&#9742;</span>
-              <div>
-                <h3>Phone</h3>
-                <p>782-234-8930</p>
-              </div>
-            </a>
+<a className="contact-card" href="tel:+17822348930">
+  <img src="/phone.png" alt="phone" className="contact-icon" />
+  <div>
+    <h3>Phone</h3>
+    <p>782-234-8930</p>
+  </div>
+</a>
 
           </div>
 
