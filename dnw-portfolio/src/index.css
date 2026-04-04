@@ -51,7 +51,6 @@ font-size: 18px;
 }
 
 .resume-shell{
-  min-height: 100vh;
   padding: 120px 20px 80px;
 background: #ffffff;
 text-align: center;
@@ -66,25 +65,14 @@ text-align: center;
 }
 
 .resume-header h2{
-font-size: 55px;
-
-
-}
-
-.resume-kicker{
-  text-transform: uppercase;
-  font-size: 35px;
-
-  
+font-size: 57px;
 
 
 }
 
 
 .resume-display{
-  width: 100%;
   max-width: 800px;
-  height: auto;
   display: block;
   margin: 0 auto;
   margin-bottom: 20px;
@@ -107,10 +95,8 @@ font-size: 55px;
 
 .resume-viewer-button{
   display: inline-block;
-  margin-top: 20px;
   padding: 12px 24px;
   font-size: 16px;
-  border: none;
   border-radius: 10px;
   background: #f6f6f6;
   color: #1f1f1f;
