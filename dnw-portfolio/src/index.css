@@ -24,15 +24,18 @@ body {
 }
 
 .about-me-info{
+font-size: 18px;
 
 }
 
 .about-me-skills{
+font-size: 18px;
+
 
 }
 
 .about-me-looking-for{
-
+font-size: 18px;
 }
 
 
@@ -46,25 +49,62 @@ body {
   min-height: 100vh;
   padding: 120px 20px 80px;
 background: #ffffff;
+text-align: center;
+
 }
 
 .resume-header{
-  max-width: 900px;
+  max-width: 1000px;
   margin: auto;
   margin-bottom: 50px;
   text-align: center;
 }
 
-.resume-kicker{
+.resume-header h2{
+font-size: 55px;
 
 
 }
 
+.resume-kicker{
+  text-transform: uppercase;
+  font-size: 35px;
+
+  
+
+
+}
+
+.resume-viewer{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  text-decoration: none;
+  color: #1f1f1f;
+  font-size: 18px;
+  font-weight: 600;
+}
+
 .resume-display{
+  display: block;
+  margin: 0 auto;
+  max-width: 800px;
+  width: 100%;
 
 }
 
 .resume-download{
+  display: inline-block;
+  margin-top: 40px;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  background: #f6f6f6;
+  color: #1f1f1f;
+  font-weight: 650;
+  text-decoration: none;
 
 }
 
