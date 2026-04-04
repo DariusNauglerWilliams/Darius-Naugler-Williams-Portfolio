@@ -10,7 +10,7 @@ return(
             <p className="project-kicker">My Work</p>
             <h2>Projects I've Worked On</h2>
             <p>
-              Here are some of the projects I've worked on. Click on any project to learn more about it.
+              Here are some of the projects I've worked on. Click on any view project to learn more about it.
             </p>
           </div>
 
@@ -19,7 +19,7 @@ return(
   <div className="project-cards">
 
  <div className="project">
-    <h2>Project Title</h2>
+    <h2>Ai Review Checker Form</h2>
     <img src="/project1.png" alt="project" />
     <p>Description of the project</p>
     <p><strong>Purpose:</strong> Why you made it</p>
@@ -30,7 +30,7 @@ return(
   </div>
 
   <div className="project">
-    <h2>Project Title</h2>
+    <h2>Portfolio Project</h2>
     <img src="/project1.png" alt="project" />
     <p>Description of the project</p>
     <p><strong>Purpose:</strong> Why you made it</p>
