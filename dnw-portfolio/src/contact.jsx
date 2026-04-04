@@ -47,7 +47,7 @@ function Contact() {
             method="POST"
           >
 
-            
+            {/* Redirects to main page */}
             <input type="hidden" name="_next" value="http://localhost:5173/#" />
             
 
