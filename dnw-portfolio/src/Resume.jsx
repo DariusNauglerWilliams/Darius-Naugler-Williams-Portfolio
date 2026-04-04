@@ -11,10 +11,10 @@ return(
             
           </div>
 
-<a href="/resume.pdf" target="_blank" rel="noopener noreferrer"></a>
+<a className="resume-viewer" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
 
   <img className="resume-display" src="/resume.png" alt="resume"/>
-
+    View Resume</a>
 
 <a className="resume-download" href="/resume.pdf" download>Download My Resume</a>
 

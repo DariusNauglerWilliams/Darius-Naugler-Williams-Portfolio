@@ -2,7 +2,7 @@ import React from 'react';
 
 function Projects() {
 return(
-    <section id="projects" style={{ height: "100vh" }}>
+    <section id="projects">
 
 
  <div className="project-shell">

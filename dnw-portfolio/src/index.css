@@ -6,30 +6,120 @@
 
 
 
-/* For example, to add padding to the top of the body to account for a fixed navbar: */
+/* add padding to the top of the body to account for a fixed navbar: */
 body {
   padding-top: 50px;
+}
+
+/*Compatable on all screen sizes / divices */
+
+
+/* About me CSS */
+.about-me-container{
+  min-height: 100vh;
+  padding: 120px 20px 80px;
+  background: #f5f5f5;
+  
+  
+}
+
+.about-me-info{
+
+}
+
+.about-me-skills{
+
+}
+
+.about-me-looking-for{
+
 }
 
 
 
 
-/* About me CSS */
 
 
 
 /* Resume CSS */
+.resume-shell{
+  min-height: 100vh;
+  padding: 120px 20px 80px;
+background: #ffffff;
+}
+
+.resume-header{
+  max-width: 900px;
+  margin: auto;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.resume-kicker{
+
+
+}
+
+.resume-display{
+
+}
+
+.resume-download{
+
+}
+
+
 
 
 
 /* Projects CSS */
 
+ .project-shell {
+min-height: 100vh;
+  padding: 120px 20px 80px;
+  background:  #151515;
+  color: #f6f6f6;
+ }
 
 
+.project-header{
+  max-width: 900px;
+  margin: auto;
+  margin-bottom: 50px;
 
+}
 
+.project-kicker{
+  text-transform: uppercase;
+  font-size: 35px;
+  color: white;
+}
 
+.project-cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 26px;
+}
 
+.project{
+  padding: 16px;
+  color: #f6f6f6;
+  text-decoration: none;
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 16px;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 80px;
+  margin-bottom: 280px;
+}
+
+.project:hover {
+  transform: translateY(-2px);
+  border-color: #ffffff;
+}
 
 
 
