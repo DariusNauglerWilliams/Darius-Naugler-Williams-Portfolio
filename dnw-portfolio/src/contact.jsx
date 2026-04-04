@@ -43,9 +43,8 @@ function Contact() {
           {/* Right side (form) */}
           <form
             className="contact-form"
-            action="mailto:djnaugler@gmail.com"
-            method="post"
-            encType="text/plain"
+            action="https://formsubmit.co/djnaugler@gmail.com"
+            method="POST"
           >
 
             <label htmlFor="name">Name</label>
@@ -68,7 +67,18 @@ function Contact() {
 
             <label htmlFor="message">Message</label>
             <textarea
-              id="message"
+              id="message"            <form
+              className="contact-form"
+              action="https://formsubmit.co/djnaugler@gmail.com"
+              method="POST"
+            >
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_next" value="http://localhost:5173/#contact" />
+              <input type="hidden" name="_subject" value="Portfolio Contact Form" />
+            
+              {/* your existing Name/Email/Message fields */}
+              <button type="submit">Send Message</button>
+            </form>
               name="message"
               rows="5"
               placeholder="Tell me about your opportunity"
