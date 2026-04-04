@@ -67,18 +67,7 @@ function Contact() {
 
             <label htmlFor="message">Message</label>
             <textarea
-              id="message"            <form
-              className="contact-form"
-              action="https://formsubmit.co/djnaugler@gmail.com"
-              method="POST"
-            >
-              <input type="hidden" name="_captcha" value="false" />
-              <input type="hidden" name="_next" value="http://localhost:5173/#contact" />
-              <input type="hidden" name="_subject" value="Portfolio Contact Form" />
-            
-              {/* your existing Name/Email/Message fields */}
-              <button type="submit">Send Message</button>
-            </form>
+              id="message"
               name="message"
               rows="5"
               placeholder="Tell me about your opportunity"
