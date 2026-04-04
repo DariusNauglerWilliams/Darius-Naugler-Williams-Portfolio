@@ -80,16 +80,6 @@ font-size: 55px;
 
 }
 
-.resume-viewer{
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 18px;
-  text-decoration: none;
-  color: #1f1f1f;
-  font-size: 18px;
-  font-weight: 600;
-}
 
 .resume-display{
   width: 100%;
@@ -102,12 +92,11 @@ font-size: 55px;
 }
 
 .resume-download{
-  display: inline-block;
-  margin-top: 40px;
-  margin-bottom: 30px;
+  display: block;
+  width: fit-content;
+  margin: 24px auto 30px;
   padding: 12px 24px;
   font-size: 16px;
-  border: none;
   border-radius: 10px;
   background: #f6f6f6;
   color: #1f1f1f;
