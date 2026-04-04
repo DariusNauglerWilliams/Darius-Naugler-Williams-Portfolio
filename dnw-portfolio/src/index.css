@@ -45,6 +45,11 @@ font-size: 18px;
 
 
 /* Resume CSS */
+#resume {
+  height: auto !important;
+  min-height: 100vh;
+}
+
 .resume-shell{
   min-height: 100vh;
   padding: 120px 20px 80px;
@@ -87,16 +92,19 @@ font-size: 55px;
 }
 
 .resume-display{
+  width: 100%;
+  max-width: 800px;
+  height: auto;
   display: block;
   margin: 0 auto;
-  max-width: 800px;
-  width: 100%;
+  margin-bottom: 20px;
 
 }
 
 .resume-download{
   display: inline-block;
   margin-top: 40px;
+  margin-bottom: 30px;
   padding: 12px 24px;
   font-size: 16px;
   border: none;
@@ -108,6 +116,19 @@ font-size: 55px;
 
 }
 
+.resume-viewer-button{
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  background: #f6f6f6;
+  color: #1f1f1f;
+  font-weight: 650;
+  text-decoration: none;
+
+}
 
 
 

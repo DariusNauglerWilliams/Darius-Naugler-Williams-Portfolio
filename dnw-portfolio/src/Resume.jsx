@@ -11,12 +11,13 @@ return(
             
           </div>
 
-<a className="resume-viewer" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+<a className="resume-viewer" href="/Darius-resume-2026.pdf" target="_blank" rel="noopener noreferrer">
 
   <img className="resume-display" src="/resume.png" alt="resume"/>
-    View Resume</a>
+    </a>
+<a className="resume-viewer-button" href="/Darius-resume-2026.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
 
-<a className="resume-download" href="/resume.pdf" download>Download My Resume</a>
+<a className="resume-download" href="/Darius-resume-2026.pdf" download>Download My Resume</a>
 
 </div>
 
