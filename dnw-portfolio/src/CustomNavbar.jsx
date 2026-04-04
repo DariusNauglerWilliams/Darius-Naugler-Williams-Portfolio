@@ -11,7 +11,7 @@ function CustomNavbar() {
       />
     </Navbar.Brand>
 
-      <Navbar.Toggle />
+      <Navbar.Toggle style={{ borderColor: 'white', filter: 'invert(1)' }} />
       <Navbar.Collapse>
         <Nav className="mx-auto">
           <Nav.Link href="#about" style={{ color: "white", fontSize: "18px", marginLeft: "30px" }}>About Me</Nav.Link>
