@@ -47,6 +47,10 @@ function Contact() {
             method="POST"
           >
 
+            
+            <input type="hidden" name="_next" value="http://localhost:5173/#" />
+            
+
             <label htmlFor="name">Name</label>
             <input
               id="name"
