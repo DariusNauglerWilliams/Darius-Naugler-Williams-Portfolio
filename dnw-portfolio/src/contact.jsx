@@ -48,7 +48,7 @@ function Contact() {
           >
 
             {/* Redirects to main page */}
-            <input type="hidden" name="_next" value="http://localhost:5173/#" />
+            <input type="hidden" name="_next" value="/#contact" />
             
 
             <label htmlFor="name">Name</label>
