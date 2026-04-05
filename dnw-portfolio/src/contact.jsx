@@ -47,8 +47,8 @@ function Contact() {
             method="POST"
           >
 
-            {/* Redirects to main page */}
-            <input type="hidden" name="_next" value="/#contact" />
+            {/* Redirects to main page change https to nothing when npm run dev testing*/}
+            <input type="hidden" name="_next" value="https://darius-naugler-williams-portfolio.vercel.app/#contact" />
             
 
             <label htmlFor="name">Name</label>
