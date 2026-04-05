@@ -333,7 +333,7 @@ min-height: 100vh;
     min-height: 100svh;
     height: 100svh;
     object-fit: cover;
-    object-position: center center;
+    object-position: right center;
   }
 
   .project-shell {
@@ -384,7 +384,7 @@ min-height: 100vh;
     line-height: 0.95;
     margin-bottom: 18px !important;
     max-width: 260px;
-    color: #ffffff;
+    color: #111111;
   }
 
   #cta a {
