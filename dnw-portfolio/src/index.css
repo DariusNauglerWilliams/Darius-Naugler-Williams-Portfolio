@@ -323,16 +323,10 @@ min-height: 100vh;
 /* Mobile Fixes  */
 
 @media (max-width: 768px) {
-  #cta {
-    height: 100svh;
-    overflow: hidden;
-  }
-
   #cta img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center top;
+    height: auto;
+    display: block;
   }
 
   .project-shell {
