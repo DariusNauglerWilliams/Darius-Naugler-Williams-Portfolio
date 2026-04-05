@@ -323,17 +323,9 @@ min-height: 100vh;
 /*Compatable on all screen sizes / divices */
  
 @media (max-width: 768px) {
-  #cta {
-    min-height: 100svh;
-    overflow: hidden;
-  }
-
   #cta img {
     width: 100%;
-    min-height: 100svh;
-    height: 100svh;
-    object-fit: cover;
-    object-position: right center;
+    height: auto;
   }
 
   .project-shell {
