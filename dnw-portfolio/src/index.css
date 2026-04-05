@@ -329,6 +329,23 @@ min-height: 100vh;
     display: block;
   }
 
+  #cta > div {
+    top: 30% !important;
+    left: 5% !important;
+    right: 5%;
+  }
+
+  #cta h1 {
+    font-size: 36px !important;
+    line-height: 1.1;
+    margin-bottom: 14px !important;
+  }
+
+  #cta button {
+    font-size: 15px !important;
+    padding: 10px 20px;
+  }
+
   .project-shell {
     padding: 100px 16px 70px;
   }
