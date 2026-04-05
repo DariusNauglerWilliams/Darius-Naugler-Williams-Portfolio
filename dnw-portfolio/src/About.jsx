@@ -24,7 +24,7 @@ function About() {
         <div className="about-me-skills">
           <h1>My Current Skills</h1>
           <p>
-            React, JS, web development, problem-solving, teamwork, communication, adaptability, and a strong desire to learn and grow in the IT field.
+            React, JavaScript, HTML, CSS, full-stack web development, Node.js, Express.js, SQL/MySQL, C#, Git/GitHub, API development, responsive design, problem-solving, teamwork, communication, adaptability, and continuous learning.
           </p>
           </div>
           <div className="about-me-looking-for">

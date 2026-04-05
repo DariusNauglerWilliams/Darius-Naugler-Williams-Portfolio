@@ -182,8 +182,9 @@ min-height: 100vh;
 
 .project img {
   width: 100%;
-  border-radius: 80px;
-  margin-bottom: 280px;
+  height: fit-content;
+  border-radius: 10px;
+  margin-bottom: 33px;
 }
 
 .project:hover {
