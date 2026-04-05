@@ -336,13 +336,6 @@ min-height: 100vh;
     object-position: center center;
   }
 
-  #cta > div {
-    top: 52% !important;
-    left: 8% !important;
-    right: 8%;
-    transform: translateY(-50%);
-  }
-
   .project-shell {
     padding: 100px 16px 70px;
   }
