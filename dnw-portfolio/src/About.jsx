@@ -8,7 +8,7 @@ function About() {
 
 <div className="about-me-container">
         <img
-          src="public/profile.jpg"
+          src="/profile.jpg"
           alt="Profile"
           className="profile-pic"
         />
