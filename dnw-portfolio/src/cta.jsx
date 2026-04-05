@@ -2,8 +2,8 @@ import React from 'react';
 
 function Cta() {
   return (
-    <section id="cta" style={{position: "relative" }}>
-      <img src="/dariuscta.png" alt="cta" style={{ width: "100%" }} />
+    <section id="cta" style={{position: "relative"}}> 
+      <img id="img" src="/dariuscta.png" alt="cta" style={{ width: "100%" }} />
 
 
 

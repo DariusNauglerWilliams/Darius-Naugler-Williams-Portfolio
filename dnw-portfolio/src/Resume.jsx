@@ -9,7 +9,7 @@ return(
     <div className="resume-header">
             <h2 className="resume-kicker">My Resume</h2>
             <br></br>
-            <p>click to view full resume</p>
+            <p>Click Image to view full resume</p>
           </div>
 
 <a className="resume-viewer" href="/Darius-resume-2026.pdf" target="_blank" rel="noopener noreferrer">

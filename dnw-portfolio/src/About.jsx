@@ -3,7 +3,7 @@ import React from 'react';
 function About() {
 
     return(
-    <section id="about" style={{ height: "100vh" }}>
+    <section id="about">
 
 
 <div className="about-me-container">
