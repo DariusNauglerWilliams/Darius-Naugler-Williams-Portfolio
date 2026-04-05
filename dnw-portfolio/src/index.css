@@ -156,6 +156,7 @@ min-height: 100vh;
   max-width: 900px;
   margin: auto;
   margin-bottom: 50px;
+  text-align: center;
 
 }
 
@@ -323,22 +324,36 @@ min-height: 100vh;
  
 @media (max-width: 768px) {
   #cta {
-    min-height: 82vh;
+    min-height: 100svh;
     overflow: hidden;
   }
 
   #cta img {
     width: 100%;
-    min-height: 82vh;
+    min-height: 100svh;
+    height: 100svh;
     object-fit: cover;
-    object-position: center;
+    object-position: center center;
   }
 
   #cta > div {
-    top: 50% !important;
+    top: 52% !important;
     left: 8% !important;
     right: 8%;
     transform: translateY(-50%);
+  }
+
+  .project-shell {
+    padding: 100px 16px 70px;
+  }
+
+  .project-cards {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .project {
+    padding: 14px;
   }
 
   .resume-header h2 {
@@ -355,8 +370,15 @@ min-height: 100vh;
   }
 
   .project img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+    object-position: top center;
     border-radius: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
   }
 
   .contact-icon {
@@ -365,7 +387,7 @@ min-height: 100vh;
   }
 
   #cta h1 {
-    font-size: 52px !important;
+    font-size: 48px !important;
     line-height: 0.95;
     margin-bottom: 18px !important;
     max-width: 260px;
@@ -377,7 +399,7 @@ min-height: 100vh;
   }
 
   #cta button {
-    font-size: 18px !important;
+    font-size: 17px !important;
     padding: 12px 22px;
     border: none;
     border-radius: 999px;
