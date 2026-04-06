@@ -9,7 +9,7 @@ function Cta() {
 
 
        <div style={{ position: "absolute", top: "37%", left: "1.2%" }}>
-        <h1 style={{ fontSize: "90px", margin: 0, color: "#000000" }}>Let’s Work</h1>
+        <h1 style={{ fontSize: "80px", margin: 0, color: "#000000" }}>Let’s Work</h1>
         <a href="#resume">
           <button style={{ fontSize: "24px" , color: "#000000"}}>Hire Me</button>
         </a>
