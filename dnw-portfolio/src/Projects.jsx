@@ -19,7 +19,7 @@ return(
   <div className="project-cards">
 
  <div className="project">
-    <h2>Ai Review Checker Form</h2>
+    <h2>AI Review Checker Form</h2>
     <img src="/aichecker-img.png" alt="project" />
     <p>A C# Windows Forms application that uses machine learning to analyze user reviews and determine whether they are positive or negative. The system uses ML.NET to process text input, predict good or bad reviews, and provide a confidence score for each prediction. It also allows users to correct incorrect predictions, helping improve the model over time through retraining.</p>
     <p><strong>Purpose:</strong> Was an assignent for a C# class, along with curiosty of doing ML and Ai.</p>
